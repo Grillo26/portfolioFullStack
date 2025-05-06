@@ -1,0 +1,94 @@
+.slider-container {
+    width: 90%;
+    margin: 0 auto;
+   text-align: center;
+   justify-content: center;
+
+ 
+}
+
+
+
+
+
+.slider-container h3 {
+    font-size: 40px;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+
+.slider-container div h3 {
+
+width: 50px;
+    display: flex;
+    flex-direction: column; 
+ 
+    
+
+ cursor: pointer;
+     text-align: center;
+}
+
+.slider-container div h3 i {
+    transform: scale(1);
+}
+
+
+
+.slider-container div h3 span {
+   font-weight: 200;
+    font-size: 10px;
+}
+
+
+.slick-prev, .slick-next {
+    color: inherit;
+}
+.slick-next::before, .slick-prev::before {
+    color: inherit;
+}
+.slick-next:hover, .slick-prev:hover {
+    color:  #12A0AE;;
+}
+.slick-next:active, .slick-prev:active {
+    color:  #12A0AE;;
+}
+
+
+.skill-container {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.skill-container hr {
+    width: 100%;
+    border: 1px dashed;
+   
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .slider-container h3 {
+        font-size: 60px;
+    }
+    /* .slick-list {
+        padding:0px 0px ;
+    }
+   */
+   .slider-container div {
+   
+   }
+    .slick-prev::before,
+    .slick-next::before {
+      
+    }
+ 
+    .slider-container div h3 span {
+
+   
+        font-size: 16px;
+    }
+}

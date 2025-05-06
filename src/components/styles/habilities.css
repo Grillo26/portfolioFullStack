@@ -1,0 +1,150 @@
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: auto;
+  
+
+}
+
+
+
+.habilities_txt {
+    width: 100%;
+}
+.habilities_txt h3 {
+    width: 80%;
+    text-align: center;
+    font-size: medium;
+    margin: 0 auto;
+  
+ 
+}
+
+.habilities_txt p {
+    width: 100%;
+    font-weight: 300;
+    text-align: center;
+    font-size:medium;
+}
+
+.habilities_list {
+    width: 100%;
+ 
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+padding-bottom: 1em;
+padding-top: 1em;
+   
+    list-style: none;
+    gap: 1em;
+    align-items: center;
+}
+
+.habilities_list li {
+
+position: relative;
+    
+    width: 100%; 
+    height: 100px;
+    margin: 0;
+
+    
+}
+
+
+/* CARD ROTATIVA */
+
+.habilities_list li div {
+    border-radius: 5px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 1s;
+}
+
+
+div .front {
+    background-color:#31304d;
+    color: white;
+    transform: perspective(500px) rotateY(0deg);
+}
+
+div .back{
+    background-color: #49C293;
+ 
+    transform: perspective(500px) rotateY(180deg);
+}
+.habilities_list li:hover .front{
+    transform: perspective(500px) rotateY(180deg);
+
+}
+.habilities_list li:hover .back{
+    transform: perspective(500px) rotateY(360deg);
+
+}
+
+.back h4 {
+    text-align: center;
+    line-height: 1.5;
+    padding: 2px;
+}
+/* FIN CARD ROTATIVA */ 
+
+
+.habilities_list li i {
+    font-size: 25px;
+}
+.habilities_list li h4 {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-top: 1em;
+}
+
+.carousel {
+  
+}
+
+.habilities_cont_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+@media only screen and (min-width: 768px) {
+    .habilities_list {
+        padding: 0;
+        width: 40%;
+    }
+
+    .habilities_list li {
+        height: 25vh;
+    }
+
+    .carousel {
+        width: 55%;
+        padding: 0;
+    }
+    .hab_and_title {
+        background-color: aqua;
+        width: 100%;
+        display: flex;
+    }
+
+    .habilities_cont_2 {
+        flex-direction: row;
+       justify-content: space-between;
+    }
+
+    
+
+}

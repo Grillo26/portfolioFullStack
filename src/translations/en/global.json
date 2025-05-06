@@ -1,0 +1,94 @@
+{
+    "header": {
+        "title": "Portfolio Grillo",
+        "about-me": "About me",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact",
+        "resume": "Resume"
+    },
+    "home": {
+        "hello": "Hello!",
+        "im": "I'm Grillo",
+        "dev": "Developer",
+        "text": "A self-taught Full Stack Developer with experience in web applications and systems. Specialized in PHP and Java, with knowledge of databases and backend technologies.",
+        "web-developer": "Download CV",
+        "web-show": "Show CV",
+        "web-designer" : "Web Designer",
+        "more": "Show More",
+        "less": "See less"
+
+    },
+    "projects": {
+        "title_proyects_fullstack": "Fullstack Projects",
+        "title_backend_practices": "Back-end Projects",
+        "title_web": "WebSites Projects",
+        "title_otro": "Other Projects",
+        "code": "Code",
+        "project": "Project",
+
+        "title1":"Inventory management and control system",
+        "title2":"Production Control System",
+        "title3":"Collection System and Loans",
+        "title4":"HR System",
+
+        "title_web1": "MJ517 Website",
+        "title_web2": "2023 Spiritual Retreat Website",
+        "title_web3": "CJR24 Website",
+        "title_web4": "Graphic Designer Portfolio",
+        "title_web5": "Web Portfolio",
+        "title_web6": "Starbucks Landing Page",
+
+        "title_other1": "Carrobot with Arduino",
+        "title_other2": "SmartHouse",
+        "title_other3": "Restaurant Control System",
+
+        
+
+        "description1": "Inventory control system for the Caja Nacional de Salud Yacuiba warehouse.",
+        "description2": "Soybean production control, percentage yield, etc. Directed for the Jaramillo Industrial Plant S.R.L.",
+        "description3": "Control of money loans with cash closure per day and with weekly or monthly reports.",
+        "description4": "Human Resources System, so far controlling Attendance and registered users. Directed for the Jaramillo Industrial Plant S.R.L.",
+
+        "description_web1": "Website for Youth Ministry 517 of the U.C.E. Vida Nueva Church.",
+        "description_web2": "Informative website about the spiritual retreat organized by UCE Sub-Directorate 24.",
+        "description_web3": "Website for the Gran Chaco Regional Youth Committee belonging to the U.CE.",
+        "description_web4": "Personal website, where you can find projects related to advertising and social media designs.",
+        "description_web5": "Personal website, version 1, where you can find some of my projects, my technical skills, and a little about me.",
+        "description_web6": "Practice applying HTML and CSS knowledge and techniques on a non-official site.",
+
+        "description_other1": "Mobile robot, assembly with wooden base, Arduino One, Bluetooth HC-05 module, HC-SR04 ultrasonic sensor.",
+        "description_other2": "Smart house, made with Arduino. Control of lights, door and sensors from APP downloaded from PlayStore.",
+        "description_other3": "Final project of the subject of network programming technology (TPR) 2021."
+
+
+    },
+    "habilities": {
+        "title": "Skills are important, but not all of them have to be technical",
+        "p": "This is my real name hehe, I graduated in Computer Engineering and I continue to develop my skills through online courses and real projects in various areas. I consider myself an empathetic and enthusiastic person, with skills focused on teamwork, assertive communication and problem solving. Furthermore, I am responsible and proactive, always willing to learn from others and continually improve myself.",
+        "problem-res": "Problem resolution",
+        "teamwork": "Teamwork",
+        "creativity": "Creativity",
+        "empathy": "Empathy", 
+
+
+        "reverse1":"Efficiency, quality and constant learning, benefiting customer satisfaction and professional reputation.",
+        "reverse2":"Effective collaboration, fluid communication and creation of quality products.",
+        "reverse3":"Optimizes aesthetics, solves problems and improves the user experience",
+        "reverse4":"Understand user needs and design more satisfying and accessible experiences."
+    },
+    "footer": {
+        "contactme": "Contact me",
+        "t": "If you want to contact me, leave me a message!",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send",
+        "alert": "Message sent succesfully"
+
+
+        
+     
+    }
+
+}

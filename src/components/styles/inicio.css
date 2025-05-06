@@ -1,0 +1,300 @@
+
+.home-container {
+ 
+    text-align: center;
+ width: 100%;
+    height: calc(100vh - 64px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+}
+.bxs-sun{
+color: rgba(255, 255, 0, 0.9);
+}
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: auto;
+   
+
+}
+
+.contenedor-title h1 {
+    line-height: 1;
+  
+   
+
+}
+
+.txt-hello {
+    color: #49C293;
+}
+.contenedor-title p {
+    font-weight: 300;
+    margin: 0;
+}
+
+.cont-barra {
+    position:absolute;
+    right: 20px;
+    top: 130px;
+  
+    
+}
+
+.img-container {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 1vh;
+    display:flex;
+  
+   
+}
+
+.img-container img {
+    width: 100%;
+    border-radius: inherit;
+    border: 0.5vh dashed #b6bbc4;
+}
+
+.subtitle {
+    font-size: 45px;
+    background-color:red;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.bx-border-circle {
+    border-color:gray;
+   
+}
+
+.enlaces {
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.enlaces a {
+    border: 2px dashed;
+    width: 40%;
+    font-size:smaller;
+    display: flex;
+    justify-content: center;
+   text-decoration: none;
+color: inherit;
+    cursor: pointer;
+    height: 4vh;
+    background-color:#49c2939c;;
+  
+    align-items: center;
+    border-radius: 1vh;
+transform: scale(1);
+}
+
+.enlaces a:hover {
+    transform: scale(1.1);
+
+}
+
+.enlaces i {
+    margin-left: 0.5em;
+    text-align: center;
+    align-items: center;
+  font-size: 17px;
+
+}
+
+
+
+
+.contenedor-title h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 250;
+
+}
+.contenedor-title h1 span {
+
+
+}
+
+.change-mode-container {
+    margin-top: 1em;
+justify-content: space-between;
+
+width: 100%;
+
+    display: flex;
+    height: 1em;
+    padding: 0;
+    margin-bottom: 0;;
+
+}
+
+.translate-container {
+    width: 50px;
+  
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    /* border: 1px solid gray; */
+    /* background-color:  #12a1ae4b; */
+}
+.translate-container span {
+    font-size: xx-small;
+  
+
+}
+
+.change-mode-container div hr {
+    color: black;
+}
+
+
+
+.btn-mode {
+    background: none;
+    border: none;
+
+  
+    cursor: pointer;
+    color: inherit;
+width: 45%;
+    font-size: x-small;
+    transform: scale(1);
+ }
+ .btn-mode:hover {
+    /* transform: scale(1.1);
+ background-color: #12A0AE; */
+
+ }
+ .btn-mode img {
+    transform: scale(1);
+ }
+ .btn-mode img:hover {
+transform: scale((1.1));
+ }
+ .btn-mode:active {
+    transform: scale(1.1);
+    background-color: #12A0AE; 
+ }
+ .btn-mode2 {
+  
+    
+  
+    text-align: center;
+    
+    height: auto;
+border: none;
+     display: flex;
+     background: none;
+   
+ 
+
+ 
+ }
+
+ .translate-container hr {
+    color: white;
+    border: 2px solid white;
+    height: 100%;
+}
+
+
+ @media only screen and (min-width: 768px) {
+
+    .home-container {
+        
+    }
+
+    .contenedor-title{
+     
+        display: flex;
+        flex-direction: column;
+    }
+    .change-mode-container {
+        margin-bottom: 7vh;
+        width: 100%;
+    }
+
+    .container_todo {
+   
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        align-items: flex-end;
+    }
+    
+ 
+
+    .img-container {
+        width: 300px;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        padding-top: 6vh;
+        margin: 0;
+    }
+
+    .img-container img {
+        width: 100%;
+        /* background-color: #31304d; */
+   
+        padding: 1.5vh;
+    }
+
+
+   
+
+    .contenedor-title {
+        text-align: left;
+        width: 60%;
+    }
+
+    .contenedor-title h1 {
+        font-size: 100px;
+    }
+
+    .enlaces {
+     
+        width: 60%;
+       margin-left: 40%;
+       height: 4vh;
+       margin-top: 4vh;
+    }
+
+    .enlaces a {
+        height: inherit;
+    }
+
+    .cont-barra {
+      position: fixed;
+    margin-right: 50px;
+        top: 130px;
+      
+        
+    }
+ }
+
+ @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos para tablet */
+    /* Puedes agregar aquí tus estilos específicos para tablets */
+    .cont-barra {
+        display: none;
+        position: absolute;
+        right: 0px;
+    }
+  }
+  

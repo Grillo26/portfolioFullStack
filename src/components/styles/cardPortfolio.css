@@ -1,0 +1,117 @@
+.buttons-card {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    width: 80%;
+    height: 35px;
+}
+
+.buttons-card li {
+    border: 1px solid rgb(71, 71, 71);
+    border-radius: 4px;
+    display: flex;
+
+    background-color:#1f1f1f;
+    height: 17px;
+    padding: 2px;
+    align-items: center;
+    margin: 0;
+}
+
+.buttons-card li h4 {
+    font-size: x-small;
+    font-weight: 450px;  
+    padding: 2px;
+    margin: 0;
+}
+
+.portfolio-proyect {
+    width: 100%;
+     /*background-color:  #ffffff75; */
+    border: 2px dashed;
+    border-radius: 0.6em;
+    border-color: #b8b8b899;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+    transform: scale(1);
+}
+
+.capa{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: transparent;
+    border-radius: inherit;
+}
+
+.capa:hover {
+    background: rgba(0, 0, 0, 0.562);
+    color: white;
+}
+.container-info {
+   
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-info h6 {
+    font-size: small;
+}
+
+.container-info p {
+    font-size: 10px;
+    width: 80%;
+}
+.portfolio-proyect:hover {
+    transform: scale(1.06);
+
+}
+.container-links {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+   height: auto;
+   
+}
+.container-links i {
+    font-size: 20px;
+}
+.container-links i p {
+    font-family:"Prompt", sans-serif;
+    font-size: xx-small;
+    margin-top: 0.5em;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .portfolio-proyect {
+        flex-wrap: wrap;
+        display: flex;
+    }
+}
+
+
+
+
+
+
+

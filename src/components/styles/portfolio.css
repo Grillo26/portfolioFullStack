@@ -1,0 +1,55 @@
+.portfolio-container {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.portfolio-grid {
+    display: grid;
+    
+ 
+}
+
+
+.portfolio-container h3 {
+    font-weight: 300;
+    font-size:medium;
+}
+
+.more {
+    cursor: pointer;
+    list-style: none;
+    color: #037a4d86;
+}
+.more:hover {
+    color: #49c29486;
+}
+
+img {
+   
+    width: 100%;
+    border-radius: 0.6em 0.6em 0 0;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .portfolio-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(auto-fill);
+        row-gap: 0.9em;
+        column-gap: 1.5em;
+        margin-bottom: 0.8em;
+    }
+    .portfolio-grid br {
+        display: none;
+    }
+
+    .more-proyect {
+        /* display: flex; */
+   
+    } 
+}
+
+/* card */
+

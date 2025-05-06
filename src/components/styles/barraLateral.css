@@ -1,0 +1,49 @@
+.barra-lat {
+    position: relative;
+   
+    left:0;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.barra-lat li {
+    font-size: x-large;
+    transform: scale(1);
+    
+}
+
+.barra-lat li:hover{
+    transform: scale(1.2);
+}
+.barra-lat li a {
+    color: inherit;
+    
+    
+}
+
+.barra-lat li a:hover {
+    color:#49C293;
+    transform: scale(1.1);
+}
+
+@media only screen and (min-width: 768px) {
+    .barra-lat{
+        height: 40vh;
+        justify-content: space-around;
+       
+    }
+    .barra-lat li {
+        font-size: xx-large;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos para tablet */
+    /* Puedes agregar aquí tus estilos específicos para tablets */
+  }
+  
