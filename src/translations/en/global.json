@@ -32,6 +32,8 @@
         "title3":"Collection System and Loans",
         "title4":"HR System",
 
+        "title1_backend": "ApiREST Library",
+
         "title_web1": "MJ517 Website",
         "title_web2": "2023 Spiritual Retreat Website",
         "title_web3": "CJR24 Website",
@@ -43,13 +45,16 @@
         "title_other2": "SmartHouse",
         "title_other3": "Restaurant Control System",
 
-        
-
+    
         "description1": "Inventory control system for the Caja Nacional de Salud Yacuiba warehouse.",
         "description2": "Soybean production control, percentage yield, etc. Directed for the Jaramillo Industrial Plant S.R.L.",
         "description3": "Control of money loans with cash closure per day and with weekly or monthly reports.",
         "description4": "Human Resources System, so far controlling Attendance and registered users. Directed for the Jaramillo Industrial Plant S.R.L.",
 
+
+        "description1_backend": "Rest API, for a library with CRUD functions, create, edit, update and delete.",
+
+        
         "description_web1": "Website for Youth Ministry 517 of the U.C.E. Vida Nueva Church.",
         "description_web2": "Informative website about the spiritual retreat organized by UCE Sub-Directorate 24.",
         "description_web3": "Website for the Gran Chaco Regional Youth Committee belonging to the U.CE.",

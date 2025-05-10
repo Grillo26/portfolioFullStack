@@ -31,6 +31,8 @@
         "title3": "Sistema de Cobros y Préstamos",
         "title4": "Sistema de Recurso Humanos",
 
+        "title1_backend": "ApiREST Librería",
+
         "title_web1": "Sitio Web MJ517",
         "title_web2": "Sitio Web Retiro Espiritual 2023",
         "title_web3": "Sitio Web CJR24",
@@ -48,6 +50,8 @@
         "description2":"Control de producción de soya, rendimiento en porcentaje, etc. Dirijido para la Planta Industrial Jaramillo S.R.L.",
         "description3": "Control de préstamos de dinero con cierre de caja por día, reportes diarios, semanales o mensuales.",
         "description4": "Sistema de Recursos Humanos, hasta el momento control de Asistencia y de usuarios registrados. Dirijido para la Planta Industrial Jaramillo S.R.L.",
+
+        "description1_backend":"ApiRest, para una librería con funciones CRUD, crear, editar, actualizar y eliminar.",
 
         "description_web1": "Página Web para el Ministerio Juvenil 517 de la Iglesia U.C.E. Vida Nueva.",
         "description_web2": "Página web informativa sobre el retiro espiritual organizado por la Sub Directiva 24 UCE.",

@@ -66,6 +66,22 @@ import { useState } from 'react'; const Portfolio = ( props ) => { const [isView
 
     {//*****************************  BACKEND PROYECTSB ********************************** */
     }
+    <h3>{t("projects.title_backend_practices")}</h3>
+    <br />
+    <div id="proyects" className='portfolio-grid'>
+  
+      <CardPortfolio 
+      project_name={t( "projects.title1_backend")} 
+      project_description={t( "projects.description1_backend")} 
+      url='#' 
+      urg='https://github.com/Grillo26/apiREST-libreria' 
+      img_port='/img/backend/back1.jpg' 
+      li1='Java' 
+      li2='SpringBoot' 
+      li3='Spring JPA' 
+      li4='Meaven' 
+      />
+    </div>
 
 
     {//*****************************  PROYECTOS WEB ********************************** */
