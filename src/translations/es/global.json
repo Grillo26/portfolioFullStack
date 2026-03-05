@@ -10,61 +10,62 @@
     "home": {
         "hello": "Hola!",
         "im": "Soy Grillo",
-        "dev": "Programador",
-        "text": "Un Desarrollador Fullstack autodidacta, con experiencia en aplicaciones y sistemas web. Especializado en PHP y Java, con conocimientos en bases de datos y tecnologías backend.",
+        "dev": "Me llamo Carlos",
+        "text": "Desarrollador Web con sólida trayectoria en el ecosistema PHP y JavaScript, utilizando Laravel y React para construir sistemas robustos. Actualmente proyecto mi carrera hacia el Frontend y UI/UX donde busco fusionar el desarrollo lógico con experiencias visuales de alto impacto.",
         "web-developer": "Descargar CV",
-        "web-show" : "Ver Cv",
+        "web-show": "Ver Cv",
         "more": "Ver más",
         "less": "Ver menos"
     },
     "projects": {
         "title_proyects_fullstack": "Proyectos Fullstack",
+        "title_ui_practices": "Proyecto UI/UX",
         "title_backend_practices": "Proyectos Back-end",
         "title_web": "Sitios Web",
         "title_otro": "Otros Proyectos",
-
         "code": "Codigo",
+        "design": "Ver en Figma",
         "project": "Proyecto",
-
-        "title1":"Sistema de Gestión y Control de Inventarios CNS", 
+        "title1": "Sistema de Gestión y Control de Inventarios CNS",
         "title2": "Sistema de Control de Producción",
         "title3": "Sistema de Cobros y Préstamos",
         "title4": "Sistema de Recurso Humanos",
-
+        "title5": "ClassGo",
+        "title_uiux1": "App Cobros y Prestamos",
+        "title_uiux2": "Mobile LandingPage Barber",
+        "title_uiux3": "Desktop LandingPage Barber",
+        "title_uiux4": "Portfolio Web",
+        "title_uiux5": "ClassGo Website",
         "title1_backend": "ApiREST Librería",
-
         "title_web1": "Sitio Web MJ517",
         "title_web2": "Sitio Web Retiro Espiritual 2023",
         "title_web3": "Sitio Web CJR24",
         "title_web4": "Portafolio Diseñador Grafico",
         "title_web5": "Portafolio Web",
         "title_web6": "Landing Page Starbucks",
-
         "title_other1": "AutoRobton con Arduino",
         "title_other2": "Casa Inteligente",
         "title_other3": "Sistema de Control de Restaurante",
-
-        
-
-        "description1":"Sistema de control de inventarios para el almacén de la Caja Nacional de Salud Yacuiba.",
-        "description2":"Control de producción de soya, rendimiento en porcentaje, etc. Dirijido para la Planta Industrial Jaramillo S.R.L.",
+        "description1": "Sistema de control de inventarios para el almacén de la Caja Nacional de Salud Yacuiba.",
+        "description2": "Control de producción de soya, rendimiento en porcentaje, etc. Dirijido para la Planta Industrial Jaramillo S.R.L.",
         "description3": "Control de préstamos de dinero con cierre de caja por día, reportes diarios, semanales o mensuales.",
         "description4": "Sistema de Recursos Humanos, hasta el momento control de Asistencia y de usuarios registrados. Dirijido para la Planta Industrial Jaramillo S.R.L.",
-
-        "description1_backend":"ApiRest, para una librería con funciones CRUD, crear, editar, actualizar y eliminar.",
-
+        "description5": "Aplicación Web de tutorías personalizadas. Conéctate con tutores dedicados para asegurar tu éxito.",
+        "description1_uiux": "Diseño y maquetación de app para cobros y prestamos diseñado en Figma",
+        "description2_uiux": "Lading page para una barbería vista desde un dispositivo móbil diseñado en Figma",
+        "description3_uiux": "Lading page para una barbería vista desde una computadora o monitor diseñado en Figma",
+        "description4_uiux": "Diseño de una LadingPage personal para ofrecer servicios",
+        "description5_uiux": "Diseño y maquetación de la aplicacion web Classgo de tutorías.",
+        "description1_backend": "ApiRest, para una librería con funciones CRUD, crear, editar, actualizar y eliminar.",
         "description_web1": "Página Web para el Ministerio Juvenil 517 de la Iglesia U.C.E. Vida Nueva.",
         "description_web2": "Página web informativa sobre el retiro espiritual organizado por la Sub Directiva 24 UCE.",
         "description_web3": "Página web para el Comité Juvenil Regional del Gran Chaco pertenenciente a la U.C.E. ",
         "description_web4": "Web Personal, donde se encuentran proyectos con respecto a diseños en publicidad y redes sociales.",
         "description_web5": "Web Personal 1ra Versión, donde se encuentran algunos de mis proyectos, mis habilidades técnicas y un poco sobre mí.",
         "description_web6": "Práctica aplicando conocimientos y técnicas de HTML y CSS en un sitio NO oficial.",
-
         "description_other1": "Robot móvil, ensamblado con base de madera, Arduino One, módulo Bluetooth HC-05, sensor ultrasónico HC-SR04.",
         "description_other2": "Casa inteligente, hecha con Arduino. Control de luces, puerta y sensores desde la aplicación descargada de Play Store.",
         "description_other3": "Proyecto final de la asignatura de Tecnología de Programación de Redes (TPR) 2021."
-
-        
     },
     "habilities": {
         "title": "Las habilidades son importantes, pero no todas tienen que ser técnicas",
@@ -73,11 +74,10 @@
         "teamwork": "Trabajo en equipo",
         "creativity": "Creatividad",
         "empathy": "Empatía",
-
-        "reverse1":"Eficiencia, calidad y aprendizaje constante, beneficiando la satisfacción del cliente y la reputación profesional.",
-        "reverse2":"Colaboración efectiva, comunicación fluida y creación de productos de calidad.",
-        "reverse3":"Optimiza la estética, soluciona problemas y mejora la experiencia del usuario",
-        "reverse4":"Comprender las necesidades de los usuarios y diseñar experiencias más satisfactorias y accesibles"
+        "reverse1": "Eficiencia, calidad y aprendizaje constante, beneficiando la satisfacción del cliente y la reputación profesional.",
+        "reverse2": "Colaboración efectiva, comunicación fluida y creación de productos de calidad.",
+        "reverse3": "Optimiza la estética, soluciona problemas y mejora la experiencia del usuario",
+        "reverse4": "Comprender las necesidades de los usuarios y diseñar experiencias más satisfactorias y accesibles"
     },
     "footer": {
         "contactme": "Contáctame",
@@ -87,6 +87,5 @@
         "message": "Mensaje",
         "send": "Enviar",
         "alert": "Mensaje enviado con éxito"
-       
     }
 }
