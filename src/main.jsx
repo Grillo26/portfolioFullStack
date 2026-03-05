@@ -8,16 +8,16 @@ import global_en from "./translations/en/global.json"
 import { HashRouter } from 'react-router-dom'
 
 i18next.init({
-interpolation: { escapeValue: false },
-lng: "en",
-resources: {
-  es: {
-    global: global_es,
+  interpolation: { escapeValue: false },
+  lng: "es",
+  resources: {
+    es: {
+      global: global_es,
+    },
+    en: {
+      global: global_en,
+    },
   },
-  en: {
-    global: global_en,
-  },
-},
 });
 
 
@@ -26,8 +26,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <I18nextProvider i18n={i18next}>
       <HashRouter>
-    <App />
-    </HashRouter>
+        <App />
+      </HashRouter>
     </I18nextProvider>
-   </React.StrictMode>,
+  </React.StrictMode>,
 )
